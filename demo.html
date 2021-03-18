@@ -5,13 +5,14 @@
   </head>
   <body>
     <h1>Test!</h1>
-    <h2>REAPPEAR!</h2>
+    <h2>APPEAR!</h2>
     
     <script type="text/javascript" src="./library.js"></script>
     <script type="text/javascript">
       s('h1').hide();
       s('h2').on('click',function(){
         s('h1').show()
+        s('h2').hide()
       });
     </script>
   </body>
