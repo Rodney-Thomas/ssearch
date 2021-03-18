@@ -21,6 +21,15 @@ function s(selector)
     },
     center:()=>{
       self.element.style.textAlign = "center"
+    },
+    right:()=>{
+      self.element.style.textAlign = "right"
+    },
+    left:()=>{
+      self.element.style.textAlign = "left"
+    },
+    basic:()=>{
+      self.element.style.fontFamily = "arial"
     }
   }
   
