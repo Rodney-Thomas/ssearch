@@ -18,6 +18,9 @@ function !(selector)
         self.element.getAttribute(name)
       else
         self.element.setAttribute(name,value)
+    },
+    temp:()=>{
+      document.getElementById('content').style.fontFamily = "Arial"
     }
   }
   
