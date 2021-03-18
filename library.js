@@ -1,4 +1,4 @@
-function !(selector)
+function s(selector)
 {
   const self =
   {
