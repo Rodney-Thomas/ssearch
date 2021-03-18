@@ -18,6 +18,9 @@ function s(selector)
         self.element.getAttribute(name)
       else
         self.element.setAttribute(name,value)
+    },
+    center:()=>{
+      self.element.style.textAlign = "center"
     }
   }
   
