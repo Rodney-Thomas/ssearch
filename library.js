@@ -10,6 +10,9 @@ function !(selector)
     hide: ()=>{
       self.element.style.display = "none"
     },
+    show: ()=>{
+      self.element.style.display = "inline"
+    },
     attr:(name, value)=>{
       if(value == null) 
         self.element.getAttribute(name)
