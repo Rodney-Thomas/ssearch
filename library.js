@@ -20,8 +20,7 @@ function !(selector)
         self.element.setAttribute(name,value)
     },
     template:()=>{
-      document.getElementById('!content').style.fontFamily = "Arial"
-      document.getElementById('!center').style.textAlign = "center"
+      self.element.style.fontFamily = "Arial"
     }
   }
   
