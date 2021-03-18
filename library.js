@@ -19,8 +19,9 @@ function !(selector)
       else
         self.element.setAttribute(name,value)
     },
-    temp:()=>{
+    template:()=>{
       document.getElementById('content').style.fontFamily = "Arial"
+      document.getElementById('!center').style.textAlign = "center"
     }
   }
   
