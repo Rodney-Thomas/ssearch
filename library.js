@@ -20,7 +20,7 @@ function !(selector)
         self.element.setAttribute(name,value)
     },
     template:()=>{
-      self.element.style.fontFamily = "Arial"
+      self.element.style.fontFamily = "Arial";
     }
   }
   
