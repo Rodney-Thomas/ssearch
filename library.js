@@ -18,9 +18,6 @@ function !(selector)
         self.element.getAttribute(name)
       else
         self.element.setAttribute(name,value)
-    },
-    template:()=>{
-      self.element.style.fontFamily = "Arial";
     }
   }
   
